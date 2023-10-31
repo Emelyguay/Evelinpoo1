@@ -39,6 +39,12 @@ public class DeberCAI {
         String[] mensajes = {"No. Por favor intenta de nuevo.", "Incorrecto. Intenta una vez más.", "¡No te rindas!", "No. Sigue intentando."};
         System.out.println(mensajes[random.nextInt(mensajes.length)]);
     }
+    public static void main(String[] args) {
+        DeberCAI programa = new DeberCAI();
+        Scanner scanner = new Scanner(System.in);
+
+        programa.configuracionInicial();
+    }
 
 
 }
