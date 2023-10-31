@@ -30,6 +30,15 @@ public class DeberCAI {
         int num2 = random.nextInt((max - min) + 1) + min;
         return new int[]{num1, num2};
     }
+    public void generarMensajePositivo() {
+        String[] mensajes = {"¡Muy bien!", "¡Excelente!", "¡Buen trabajo!", "¡Sigue así!"};
+        System.out.println(mensajes[random.nextInt(mensajes.length)]);
+    }
+
+    public void generarMensajeNegativo() {
+        String[] mensajes = {"No. Por favor intenta de nuevo.", "Incorrecto. Intenta una vez más.", "¡No te rindas!", "No. Sigue intentando."};
+        System.out.println(mensajes[random.nextInt(mensajes.length)]);
+    }
 
 
 }
