@@ -1,21 +1,17 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package com.mycompany.evelinpoo1;
+import java.util.Random;
+import java.util.Scanner;
 
-/**
- *
- * @author LENOVO
- */
 public class DeberCAI {
+    private int aciertos;
+    private int intentos;
+    private int nivelDificultad;
+    private int tipoProblema;
+    private Random random;
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public DeberCAI() {
+        random = new Random();
+        aciertos = 0;
+        intentos = 0;
     }
-    
 }
+
